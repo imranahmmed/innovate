@@ -1,0 +1,33 @@
+.getTraffic__features{
+    padding-bottom: var(--sectionGap);
+}
+
+.getTraffic__box {
+    display: flex;
+    flex-flow: row;
+    column-gap: var(--columnGap);
+    align-items: center;
+}
+
+.getTraffic__descAndProgress {
+    width: 50%;
+    min-height:100px
+}
+
+.getTraffic__image {
+    width: 50%;
+    min-height:100px
+}
+
+.section__title--marginBottom{
+    margin-bottom: var(--contentGap);
+}
+
+.getTraffic__desc{
+    font-size: var(--paraFontSize);
+    font-family: var(--nunito);
+    color: var(--black);
+    line-height: 200%;
+    text-transform: capitalize;
+    width: 596px;
+}

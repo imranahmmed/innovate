@@ -1,0 +1,145 @@
+.our__pricing{
+    background-color: var(--sectionBgTwo);
+    padding-top: var(--sectionGap);
+    padding-bottom: var(--sectionGap);
+}
+
+.pricing__box {
+    display: flex;
+    flex-flow: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.pricing {
+    width: 25%;
+    text-align: center;
+    border-right: 1px solid #D7E6F9;
+    position: relative;
+}
+
+.pricing:last-child {
+    border: 0;
+}
+
+.benefits__name,
+.benefits__value {
+    min-height: 70px;
+}
+
+.benefits__name:nth-child(even),
+.benefits__value:nth-child(even) {
+    background-color: #F2F7FA;
+}
+
+.benefits__value:nth-child(1) {
+    min-height: 124px;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    justify-content: center;
+}
+
+
+
+.benefits__value {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--poppins);
+    font-weight: var(--medium);
+    font-size: var(--subHeading);
+    color: var(--darkAsh);
+}
+
+.benefits__name {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-transform: capitalize;
+    font-family: var(--poppins);
+    font-weight: var(--semiBold);
+    font-size: var(--subHeading);
+    color: var(--darkAsh);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.plan__name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    font-family: var(--poppins);
+    font-weight: var(--semiBold);
+    font-size: 28px;
+    color: var(--black);
+}
+
+.plan__name__price {
+    min-height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.plan__priceAndTime {
+    text-transform: capitalize;
+    text-align: left;
+    line-height: 140%;
+    font-family: var(--poppins);
+    font-weight: var(--regular);
+    font-size: var(--subHeading);
+    color: var(--black);
+}
+
+.plan__price {
+    font-weight: var(--semiBold);
+}
+
+.benefits__name--weight {
+    font-weight: var(--regular);
+}
+
+.pricing__colorFlag {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 12px;
+    width: 80%;
+    border-radius: 50px;
+    background-color: var(--sky);
+}
+
+.pricing__colorFlag--bgOne {
+    background-color: var(--dark);
+}
+
+.pricing__colorFlag--bgTwo {
+    background-color: var(--green);
+}
+
+.pricing__colorFlag--bgThree {
+    background-color: var(--purple);
+}
+
+.price__btn{
+    width: 100%;
+    border: 0;
+    background: var(--dark);
+    color: var(--white);
+    height: 71px;
+    font-size: var(--paraFontSize);
+    text-transform: capitalize;
+}
+
+.price__btn--bgOne{
+    background-color: var(--green);
+}
+.price__btn--bgTwo{
+    background-color: var(--purple);
+}

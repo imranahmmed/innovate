@@ -1,0 +1,7 @@
+.client__items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: var(--sectionGap);
+    padding-bottom: var(--sectionGap);
+}

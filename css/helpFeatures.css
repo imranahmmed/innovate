@@ -1,0 +1,105 @@
+.help__features {
+    padding-top: var(--sectionGap);
+    padding-bottom: var(--sectionGap);
+    background-color: var(--sectionBgTwo);
+}
+
+.section__title--align {
+    text-align: center;
+}
+
+.help__cards {
+    margin-bottom: var(--boxGap);
+    display: flex;
+    flex-flow: row;
+    column-gap: var(--columnGap);
+}
+
+.help_card {
+    background-color: var(--orange);
+    width: 25%;
+    min-height: 210px;
+    position: relative;
+    border-radius: 14px;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.help__bottomArrow {
+    background-color: var(--orange);
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+    height: 30px;
+    width: 46px;
+    position: absolute;
+    bottom: -29px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.help__name {
+    font-size: var(--subHeading);
+    color: var(--white);
+    font-family: var(--poppins);
+    font-weight: var(--medium);
+    line-height: 140%;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+
+.help__card--bgOne {
+    background-color: var(--primaryLight);
+}
+
+.help__card--bgTwo {
+    background-color: var(--greenLight);
+}
+
+.help__card--bgThree {
+    background-color: var(--orangeLight);
+}
+
+.help__bottomArrow--bgOne {
+    background-color: var(--primaryLight);
+}
+
+.help__bottomArrow--bgTwo {
+    background-color: var(--greenLight);
+}
+
+.help__bottomArrow--bgThree {
+    background-color: var(--orangeLight);
+}
+
+.help__name--color {
+    color: var(--black);
+}
+
+
+.help__details {
+    column-gap: var(--columnGap);
+    width: 68%;
+    margin: auto;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.help__detailsContent__name {
+    font-family: var(--poppins);
+    font-weight: var(--semiBold);
+    margin-bottom: var(--columnGap);
+    font-size: 36px;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+
+.help__detailsContent__descr {
+    font-family: var(--nunito);
+    font-weight: var(--regular);
+    font-size: var(--paraFontSize);
+    line-height: 200%;
+    text-transform: capitalize;
+}
